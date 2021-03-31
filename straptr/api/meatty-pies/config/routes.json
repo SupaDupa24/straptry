@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/meatty-pies",
+      "handler": "meatty-pies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/meatty-pies/count",
+      "handler": "meatty-pies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/meatty-pies/:id",
+      "handler": "meatty-pies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/meatty-pies",
+      "handler": "meatty-pies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/meatty-pies/:id",
+      "handler": "meatty-pies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/meatty-pies/:id",
+      "handler": "meatty-pies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
